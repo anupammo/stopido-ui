@@ -35,11 +35,11 @@
                 Profile
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="customer_profile.html">Account Details</a>
-                  <a class="dropdown-item" href="orders.html">Order History</a>
-                  <a class="dropdown-item" href="wishlist.html">Wishlist</a>
-                  <a class="dropdown-item" href="adresses.html">Adresses</a>
-                  <a class="dropdown-item" href="cart.html">Cart</a>
+                <a class="dropdown-item" href="customer_profile.html">Account Details</a>
+                <a class="dropdown-item" href="orders.html">Order History</a>
+                <a class="dropdown-item" href="wishlist.html">Wishlist</a>
+                <a class="dropdown-item" href="adresses.html">Adresses</a>
+                <a class="dropdown-item" href="cart.html">Cart</a>
               </div>
             </li>
             <li class="nav-item">
@@ -1144,21 +1144,29 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Email/Mobile">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <!-- <label for="exampleInputPassword1">Password</label> -->
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Remember me</label>
             </div>
             <!-- <button type="submit" class="btn btn-primary float-right">Submit</button> -->
-            <a href="cart.html" class="btn btn-primary float-right">Submit</a>
+            <div class="form-group">
+              <a href="cart.html" class="btn btn-warning px-5">Submit</a>
+            </div>
           </form>
+          <p>
+            <a href="" class="btn">Forgot Password?</a>
+            <br>
+            <a href="" class="btn">New user, create account</a>
+          </p>
         </div>
       </div>
     </div>
